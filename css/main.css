@@ -1,6 +1,8 @@
 .logo {
   width: 29px; 
   height: auto; 
+  margin-left: 20px;
+
 }
 
 body {
@@ -30,13 +32,14 @@ body {
 
 .nav-menu, .navbar-nav {
   display: flex;
-  gap: 10px; /* расстояние между элементами */
+  gap: 25px; /* расстояние между элементами */
   align-items: center;
 }
 
 .nav-link {
   text-decoration: none;
-  color: black;
+    color: rgba(42, 45, 70, 1);
+
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
 }
@@ -44,6 +47,7 @@ body {
 color: rgb(49, 69, 255); /* синий цвет при наведении у мяча и тп*/
 }
 .my-btn {
+  margin-left: 25px;
   background-color: white;
   color: #ff66b2;
   font-family: 'Montserrat', sans-serif;
@@ -54,9 +58,25 @@ color: rgb(49, 69, 255); /* синий цвет при наведении у м�
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s ease;
+
 }
 
 .my-btn:hover {
   background-color: #ff66b2;
   color: white;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* расстояние между иконкой и суммой */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-right: 177px;
+
+  }
+
+.cart-icon {
+  width: 25px;
+  height: auto;
+  cursor: pointer;
 }
