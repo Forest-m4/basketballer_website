@@ -1,0 +1,62 @@
+.logo {
+  width: 29px; 
+  height: auto; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.site-title {
+  color: rgb(49, 69, 255);
+  font-size: 12px; 
+  margin: 0;
+  font-weight: 700;
+}
+
+.site-subtitle {
+  color: rgba(42, 45, 70, 1);
+  font-size: 12px; 
+  margin: 0;
+}
+
+.nav-item_num a {
+  color: rgba(42, 45, 70, 1);
+  font-size: 15px; 
+  margin: 0;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.nav-menu, .navbar-nav {
+  display: flex;
+  gap: 10px; /* расстояние между элементами */
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+.nav-link:hover {
+color: rgb(49, 69, 255); /* синий цвет при наведении у мяча и тп*/
+}
+.my-btn {
+  background-color: white;
+  color: #ff66b2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  border: 2px solid #ff66b2;
+  padding: 5px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.my-btn:hover {
+  background-color: #ff66b2;
+  color: white;
+}
